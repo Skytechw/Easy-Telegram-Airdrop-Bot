@@ -76,7 +76,7 @@ dispatcher = updater.dispatcher
 if(COIN_PRICE == "0"):
     SYMBOL = ""
 else:
-    SYMBOL = f"\n⭐️ 1 {COIN_SYMBOL} = {COIN_PRICE}"
+    SYMBOL = f"\n⭐️ 1 {COIN_SYMBOL} = 42,663.17$"
 if(EXPLORER_URL != ""):
     EXPLORER_URL = f"\nContract: {EXPLORER_URL}"
 if(WEBSITE_URL != ""):
@@ -85,7 +85,7 @@ WELCOME_MESSAGE = f"""
 Hello, NAME! I am your friendly {COIN_NAME} Airdrop bot
 {SYMBOL}
 ⭐️ For Joining - Get {AIRDROP_AMOUNT} {COIN_SYMBOL}
-⭐️ For each referral - Get {"{:,.2f}".format(REFERRAL_REWARD)} {COIN_SYMBOL}
+⭐️ For each referral - Get 0.000023 {COIN_SYMBOL}
 
 📘By Participating you are agreeing to the {COIN_NAME} (Airdrop) Program Terms and Conditions. Please see pinned post for more information.
 Click "🚀 Join Airdrop" to proceed"""
@@ -93,7 +93,7 @@ tasks = ""
 
 PROCEED_MESSAGE = f"""
 🔹 Airdrop Reward = *{AIRDROP_AMOUNT} {COIN_SYMBOL}*
-🔹 Extra reward per referral = *{"{:,.2f}".format(REFERRAL_REWARD)} {COIN_SYMBOL}* (max {MAX_REFS}){SYMBOL}
+🔹 Extra reward per referral = *0.000023 {COIN_SYMBOL}* (max {MAX_REFS}){SYMBOL}
 
 📢 Airdrop Rules
 
