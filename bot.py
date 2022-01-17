@@ -142,7 +142,7 @@ Don't forget to:
 🔸 Stay in the telegram channels
 🔸 Follow all the social media channels for the updates
 
-Your personal referral link (+{"{:,.2f}".format(_REWARD)} {COIN_SYMBOL} for each referral)
+Your personal referral link (+{"{:,.2f}".format(REFERRAL_REWARD)} {COIN_SYMBOL} for each referral)
 REPLACEME
 """
 
